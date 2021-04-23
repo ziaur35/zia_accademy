@@ -12,11 +12,11 @@ mormon := struct{
  price float32
  pages int
 }{
-title= "book of mormon",
-author= "sacred text",
-isbn= "9781537696775",
-price=35.05,
-pages=238,
+title: "book of mormon",
+author: "sacred text",
+isbn: "9781537696775",
+price:35.05,
+pages:238,
 }
 fmt.Println(mormon)
 
